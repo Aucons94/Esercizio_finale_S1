@@ -1,0 +1,129 @@
+/* IMPOSTAZIONI GENERALI */
+body { 
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color:#393d41;
+    text-align: center;
+    border: 1px solid white ;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #dee1e3;
+}
+h1, h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    line-height: 1;
+    margin: 0.5em;
+}
+
+/* HEADER */
+header {
+    background-color: black;
+}
+header img {
+    width: 9em;
+    margin: 2em;
+}
+#banner {
+    background-image: url(../images/banner.jpg); /*rivedere dimensioni bg*/
+    background-position: center center;
+    background-size: 120%;
+    padding: 2em;
+}
+#banner h1 {
+    font-size: 2em;
+}
+button {
+    background-color:#f04c2f;
+    width: 12em;
+    height: 3.5em;
+    border-radius: 5px;
+    margin: 2.5em;
+    border: 0;
+}
+button a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+article div {
+    padding: 1.5em;
+}
+article h3 {
+    margin-top: 0.8em;
+    padding: 1em;
+}
+article img  {
+    width: 15em;
+    border-radius: 300px;
+}
+/* fascia rossa */
+#rosso {
+    background-color:#e22d0e;
+    color: white;
+    padding: 1em;
+}
+#rosso h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+cite {
+    font-style: italic;
+}
+#rosso p {
+    margin: 1em;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+#rosso span {
+    font-size: 1rem;
+}
+
+/* ASIDE */
+aside {
+    padding: 2em;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside img {
+    width: 100%;
+}
+aside div {
+    margin-bottom: 3em;
+}
+aside h3 {
+    margin: 1em;
+}
+/* FOOTER */
+footer {
+    background-color:#25a2c3;
+    padding: 2em;
+    color: #c8e7f0;
+}
+footer h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1em; 
+}
+footer a {
+    color: #c8e7f0;
+}
+footer hr {
+    width: 60%;
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+}
+.copyright  {
+    font-size: 1rem;
+}
+
+
